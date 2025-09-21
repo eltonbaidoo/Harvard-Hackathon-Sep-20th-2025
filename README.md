@@ -21,7 +21,7 @@ This makes FTG the first trustless, social, and automated group travel savings a
 
 
 #### 🎥 Frontend Demo
-**Watch the Live Demo:** https://youtube.com/shorts/ru1R06pJ9tw?feature=share
+**Watch the Live Demo:** https://youtube.com/shorts/7uUu9tZjbzY?feature=share
 
 #### 🎨 Design & Presentation
 **Canva Presentation:** https://www.canva.com/design/DAGyQHL0fP4/09nrU-Vbp6IPNFAdxysi-A/edit
