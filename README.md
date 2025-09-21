@@ -74,6 +74,52 @@ If you are new to Hardhat please check the [Hardhat getting started doc](https:/
     npx hardhat run scripts/tryDeployment.ts
     ```
 
+## 🎯 FTG - Flare Travel Goals Demo Commands
+
+**Revolutionary Cross-Chain DeFi Solution for Group Travel Planning**
+
+After setting up the project, you can run the following FTG demo scripts:
+
+### Live Demo Commands (Copy & Paste Ready)
+
+```bash
+# 1. Contract Status Check - View live contract balance and vault status
+npx hardhat run scripts/checkFTGBalance.ts --network coston2
+
+# 2. Main Demo - FTSO Integration & Smart Travel Vaults
+npx hardhat run scripts/FTG_hackathon_demo.ts --network coston2
+
+# 3. Cross-Chain Integration - XRPL Asset Issuance & Bridge
+npx hardhat run scripts/xrpl-integration/FTG_CompleteDemo.ts --network coston2
+
+# 4. Live Financial Operations - Add funds and demonstrate transactions
+npx hardhat run scripts/addMoreFunds.ts --network coston2
+
+# 5. Emergency Backup Demo - Quick presentation fallback
+npx hardhat run scripts/emergencyDemo.ts --network coston2
+```
+
+### Pre-Presentation Validation
+
+```bash
+# Test everything before your demo/presentation
+npx hardhat run scripts/prePresentation_validation.ts --network coston2
+```
+
+### 🌟 What is FTG?
+
+FTG combines **XRPL's asset issuance and liquidity** with **Flare's decentralized data and proofs** to create:
+
+- 🔮 **Oracle-Driven Timing**: FTSO price feeds determine optimal booking moments
+- 🪙 **Tokenized Travel Shares**: XRPL assets representing vault ownership  
+- 💰 **Advanced DeFi**: Lending/borrowing against travel funds
+- 🗳️ **Democratic Governance**: Group voting for trip decisions
+- 🛡️ **Emergency Protection**: Multi-layered fund safety mechanisms
+
+**Live Contract:** [0xA0285b335dEEB4127C73C9014924eDC46E70C505](https://coston2-explorer.flare.network/address/0xA0285b335dEEB4127C73C9014924eDC46E70C505)
+
+---
+
 ## Repository structure
 
 ```
