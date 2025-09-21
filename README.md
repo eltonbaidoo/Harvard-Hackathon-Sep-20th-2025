@@ -1,5 +1,6 @@
 # 📖 Full Description
 
+**OUT OF THE GROUP CHAT (OGC)**
 **FTG (Flare Travel Goals)** is a Web3-powered group travel savings and governance platform built on **Flare Network with XRPL integration**.
 It solves a common problem: most trip ideas die in the group chat because no one commits money early, coordination is messy, and trust breaks down.
 
