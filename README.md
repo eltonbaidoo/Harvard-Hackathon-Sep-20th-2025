@@ -131,6 +131,26 @@ FTG combines **XRPL's asset issuance and liquidity** with **Flare's decentralize
 - 🗳️ **Democratic Governance**: Group voting for trip decisions
 - 🛡️ **Emergency Protection**: Multi-layered fund safety mechanisms
 
+## 📖 Full Description
+
+**FTG (Flare Travel Goals)** is a Web3-powered group travel savings and governance platform built on Flare Network with XRPL integration. It solves a common problem: most trip ideas die in the group chat because no one commits money early, coordination is messy, and trust breaks down.
+
+With FTG, friends pool funds into on-chain vaults, contribute consistently, and unlock money only when group approvals are met. Funds are transparent, trustless, and governed directly in smart contracts.
+
+### 🔑 How It Works
+
+1. **Create a Trip Pool** (e.g., Hawaii 2025 with a $5,000 goal)
+2. **Invite Friends** – connect Flare wallets or join via link
+3. **Set Contributions** – weekly fixed amounts until the trip date
+4. **Funds Locked On-Chain** – escrow in Flare network with FTSO price monitoring
+5. **Group Approvals** – 75% quorum required to release/refund
+6. **Exit Rules** – members can leave only with full group consent
+7. **Book When Ready** – release funds to wallets or trigger booking flows
+8. **XRPL Integration** – tokenized travel shares for liquidity and trading
+9. **Oracle-Driven Timing** – FTSO data determines optimal booking moments
+
+This makes FTG the **first trustless, social, and automated group travel savings app** with cross-chain DeFi capabilities.
+
 **Live Contract:** [0xA0285b335dEEB4127C73C9014924eDC46E70C505](https://coston2-explorer.flare.network/address/0xA0285b335dEEB4127C73C9014924eDC46E70C505)
 
 ---
