@@ -31,11 +31,17 @@ This makes FTG the first trustless, social, and automated group travel savings a
 
 #### 📸 Screenshots
 
+<div align="center">
+
 **FTG Interface Demo:**
-![FTG Demo Interface](Screenshot%202025-09-20%20at%209.47.32%20PM.png)
+
+<img src="ftg-demo-interface.png" alt="FTG Demo Interface" width="700">
 
 **FTG Application Preview:**
-![FTG Application](Screenshot%202025-09-20%20at%209.49.00%20PM.png)
+
+<img src="ftg-application-preview.png" alt="FTG Application" width="700">
+
+</div>
 
 
 
