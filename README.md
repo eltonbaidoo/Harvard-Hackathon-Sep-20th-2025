@@ -33,9 +33,24 @@ If you are new to Hardhat please check the [Hardhat getting started doc](https:/
     cp .env.example .env
     ```
 
-3. Change the `PRIVATE_KEY` in the `.env` file to yours
+3. **IMPORTANT: Configure Your Wallet**
 
-4. Compile the project
+    Open the `.env` file and replace the placeholder with your actual private key:
+
+    ```env
+    PRIVATE_KEY=your_actual_private_key_here_without_0x_prefix
+    FLARE_RPC_URL=https://coston2-api.flare.network/ext/bc/C/rpc
+    ```
+
+    **⚠️ Security Notes:**
+    - Never share your private key or commit it to version control
+    - Use a test wallet for development (not your main wallet)
+    - Get Coston2 testnet tokens from [Flare Faucet](https://faucet.flare.network/coston2)
+    - Your wallet needs Coston2 ETH to run the FTG demo scripts
+
+4. Change the `PRIVATE_KEY` in the `.env` file to yours
+
+5. Compile the project
 
     ```console
     yarn hardhat compile
@@ -51,7 +66,7 @@ If you are new to Hardhat please check the [Hardhat getting started doc](https:/
     It will also generate artifacts that will be needed for testing.
     Contracts `Imports.sol` import MockContracts and Flare related mocks, thus enabling mocking of the contracts from typescript.
 
-5. Run Tests
+6. Run Tests
 
     ```console
     yarn hardhat test
@@ -63,7 +78,7 @@ If you are new to Hardhat please check the [Hardhat getting started doc](https:/
     npx hardhat test
     ```
 
-6. Deploy
+7. Deploy
 
     Check the `hardhat.config.ts` file, where you define which networks you want to interact with.
     Flare mainnet & test network details are already added in that file.
