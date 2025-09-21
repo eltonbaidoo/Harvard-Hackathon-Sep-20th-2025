@@ -1,31 +1,58 @@
 # 📖 Full Description
 
-Out The Group Chat (OGC) is a Web3-powered group travel savings and governance platform built on Algorand.
+**FTG (Flare Travel Goals)** is a Web3-powered group travel savings and governance platform built on **Flare Network with XRPL integration**.
 It solves a common problem: most trip ideas die in the group chat because no one commits money early, coordination is messy, and trust breaks down.
 
-With OGC, friends pool funds into on-chain vaults, contribute consistently, and unlock money only when group approvals are met.
+With FTG, friends pool funds into on-chain vaults, contribute consistently, and unlock money only when group approvals are met.
 Funds are transparent, trustless, and governed directly in smart contracts.
 
 🔑 How It Works
-	1.	Create a Trip Pool (e.g., Italy 2025 with a $3,000 goal).
-	2.	Invite Friends – connect Algorand wallets or join via link.
-	3.	Set Contributions – weekly fixed amounts until the trip date.
-	4.	Funds Locked On-Chain – escrow in Algorand USDCa (ASA).
+	1.	Create a Trip Pool (e.g., Hawaii 2025 with a $5,000 goal).
+	2.	Invite Friends – connect Flare/XRPL wallets or join via link.
+	3.	Set Contributions – weekly/monthly fixed amounts until the trip date.
+	4.	Funds Locked On-Chain – escrow in Flare smart contracts with FTSO price monitoring.
 	5.	Group Approvals – 75% quorum required to release/refund.
 	6.	Exit Rules – members can leave only with full group consent.
 	7.	Book When Ready – release funds to wallets or trigger booking flows.
+	8.	XRPL Tokenization – travel shares issued as tradeable assets.
+	9.	Oracle-Driven Timing – FTSO data determines optimal booking moments.
 
-This makes OGC the first trustless, social, and automated group travel savings app.
-
-
-#### Frontend Demo
-###### https://youtu.be/amuoYIogn-4
-
-#### CANVA LINK
- ##### https://www.canva.com/design/DAGyQHL0fP4/09nrU-Vbp6IPNFAdxysi-A/edit
+This makes FTG the first trustless, social, and automated group travel savings app with **cross-chain DeFi capabilities**.
 
 
+#### 🎥 Frontend Demo
+**Watch the Live Demo:** https://youtu.be/amuoYIogn-4
 
+#### 🎨 Design & Presentation
+**Canva Presentation:** https://www.canva.com/design/DAGyQHL0fP4/09nrU-Vbp6IPNFAdxysi-A/edit
+
+#### 📸 Screenshots
+
+**FTG Interface Demo:**
+![FTG Demo Interface](Screenshot%202025-09-20%20at%209.47.32%20PM.png)
+
+**FTG Application Preview:**
+![FTG Application](Screenshot%202025-09-20%20at%209.49.00%20PM.png)
+
+
+
+
+
+
+
+
+# ⚙️ Technical Description (XRPL + Flare)
+
+OGC leverages Flare’s EVM (for rich smart-contract logic + on-chain data) and XRPL (for ultra-low-fee payments & trustlines) to make group savings practical and scalable.
+	•	Smart Contracts (Flare): Solidity vault + payout logic, deployed to Coston2 via Hardhat.
+	•	On-chain Data (Flare): FTSO price feeds (e.g., USD/XRP) to keep goals/premiums stable in USD terms; optional State Connector/Web2JSON for verified external events.
+	•	XRPL Integration: Contributions/settlement on XRPL Testnet (Payments, Escrow, MultiSign) with an OGC Issued Currency (IOU) for points/receipts; optional FAssets/FXRP to mirror XRP on Flare for contract-driven accounting.
+	•	Wallets: MetaMask (Flare EVM) + Xaman (XUMM)/GemWallet (XRPL).
+	•	Fees: XRPL fees are fractions of a cent; Coston2 gas is minimal — ideal for micro-contributions.
+	•	SDKs:
+	•	Flare: Hardhat, ethers.js, TypeScript.
+	•	XRPL: xrpl-py (Python) and/or xrpl.js.
+	•	Indexing/Observability: XRPL Data API for account/tx scans; Flare RPC + event logs (ethers.js) for contract events.
 
 # Flare Hardhat Starter Kit
 
@@ -160,7 +187,7 @@ FTG combines **XRPL's asset issuance and liquidity** with **Flare's decentralize
 - 🗳️ **Democratic Governance**: Group voting for trip decisions
 - 🛡️ **Emergency Protection**: Multi-layered fund safety mechanisms
 
-## 📖 Full Description
+## 📖 Further Description
 
 **FTG (Flare Travel Goals)** is a Web3-powered group travel savings and governance platform built on Flare Network with XRPL integration. It solves a common problem: most trip ideas die in the group chat because no one commits money early, coordination is messy, and trust breaks down.
 
