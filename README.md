@@ -1,3 +1,32 @@
+# 📖 Full Description
+
+Out The Group Chat (OGC) is a Web3-powered group travel savings and governance platform built on Algorand.
+It solves a common problem: most trip ideas die in the group chat because no one commits money early, coordination is messy, and trust breaks down.
+
+With OGC, friends pool funds into on-chain vaults, contribute consistently, and unlock money only when group approvals are met.
+Funds are transparent, trustless, and governed directly in smart contracts.
+
+🔑 How It Works
+	1.	Create a Trip Pool (e.g., Italy 2025 with a $3,000 goal).
+	2.	Invite Friends – connect Algorand wallets or join via link.
+	3.	Set Contributions – weekly fixed amounts until the trip date.
+	4.	Funds Locked On-Chain – escrow in Algorand USDCa (ASA).
+	5.	Group Approvals – 75% quorum required to release/refund.
+	6.	Exit Rules – members can leave only with full group consent.
+	7.	Book When Ready – release funds to wallets or trigger booking flows.
+
+This makes OGC the first trustless, social, and automated group travel savings app.
+
+
+#### Frontend Demo
+###### https://youtu.be/amuoYIogn-4
+
+#### CANVA LINK
+ ##### https://www.canva.com/design/DAGyQHL0fP4/09nrU-Vbp6IPNFAdxysi-A/edit
+
+
+
+
 # Flare Hardhat Starter Kit
 
 This is a starter kit for interacting with Flare blockchain.
@@ -152,6 +181,28 @@ With FTG, friends pool funds into on-chain vaults, contribute consistently, and 
 This makes FTG the **first trustless, social, and automated group travel savings app** with cross-chain DeFi capabilities.
 
 **Live Contract:** [0xA0285b335dEEB4127C73C9014924eDC46E70C505](https://coston2-explorer.flare.network/address/0xA0285b335dEEB4127C73C9014924eDC46E70C505)
+
+#### 🎥 Frontend Demo
+**Watch the Live Demo:** https://youtu.be/amuoYIogn-4
+
+## ⚙️ Technical Description (XRPL + Flare)
+
+FTG leverages **Flare's EVM** (for rich smart-contract logic + on-chain data) and **XRPL** (for ultra-low-fee payments & trustlines) to make group savings practical and scalable.
+
+### 🏗️ Architecture Components:
+
+- **Smart Contracts (Flare)**: Solidity vault + payout logic, deployed to Coston2 via Hardhat
+- **On-chain Data (Flare)**: FTSO price feeds (e.g., USD/XRP) to keep goals/premiums stable in USD terms; optional State Connector/Web2JSON for verified external events
+- **XRPL Integration**: Contributions/settlement on XRPL Testnet (Payments, Escrow, MultiSign) with an FTG Issued Currency (IOU) for points/receipts; optional FAssets/FXRP to mirror XRP on Flare for contract-driven accounting
+- **Wallets**: MetaMask (Flare EVM) + Xaman (XUMM)/GemWallet (XRPL)
+- **Fees**: XRPL fees are fractions of a cent; Coston2 gas is minimal — ideal for micro-contributions
+
+### 🛠️ Development Stack:
+
+- **SDKs**:
+  - **Flare**: Hardhat, ethers.js, TypeScript
+  - **XRPL**: xrpl-py (Python) and/or xrpl.js
+- **Indexing/Observability**: XRPL Data API for account/tx scans; Flare RPC + event logs (ethers.js) for contract events
 
 ---
 
