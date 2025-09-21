@@ -35,11 +35,11 @@ This makes FTG the first trustless, social, and automated group travel savings a
 
 **FTG Interface Demo:**
 
-<img src="ftg-demo-interface.png" alt="FTG Demo Interface" width="700">
+<img src="ftg-demo-interface.png" alt="Transaction made on contract" width="700">
 
 **FTG Application Preview:**
 
-<img src="ftg-application-preview.png" alt="FTG Application" width="700">
+<img src="ftg-application-preview.png" alt="User test wallet" width="700">
 
 </div>
 
