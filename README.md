@@ -42,6 +42,10 @@ This makes FTG the first trustless, social, and automated group travel savings a
 
 <img src="ftg-application-preview.png" alt="User test wallet" width="700">
 
+**FTG Demo Overview:**
+
+<img src="ftg-demo.png" alt="FTG Demo Overview" width="700">
+
 </div>
 
 
